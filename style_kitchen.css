@@ -1,0 +1,106 @@
+
+    label {
+        display: block;
+    }
+
+    body {
+        background-color: #FFFFFF;
+        font-family: 'Mitr', sans-serif;
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: #FFD089;
+    }
+
+    .topnav a {
+        float: left;
+        color: #000000;
+        text-align: center;
+        padding: 25px 30px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .topnav a:hover {
+        background-color: #CBC5C5;
+        color: black;
+    }
+
+    .topnav a.active {
+        background-color: #AF843C;
+        color: white;
+    }
+
+    .topnav-right {
+        float: right;
+    }
+
+.right {
+        float: right;
+    }    
+
+   .table {
+    width: 80%;  /* ปรับขนาดตารางตามต้องการ */
+    margin: auto; /* จัดกึ่งกลาง */
+}
+
+
+
+    
+    .alert-warning {
+        font-size: 25px;
+        font-family: 'Mitr', sans-serif;
+    }
+
+    .custom-div {
+        margin: 20px;
+        font-family: 'Mitr', sans-serif;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .custom-button {
+        background-color: #AF843C;
+        border: none;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 30px;
+        cursor: pointer;
+        border-radius: 20px;
+        font-family: 'Mitr', sans-serif;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .wrapper {
+        width: 100%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        display: grid;
+        place-items: center;
+        gap: 15px;
+    }
+
+    .container {
+        height: 125px;
+        width: 125px;
+        background-color: #FFEFD5;
+        border-radius: 8px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    
